@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Editor Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f8f9fa; }
+    h1 { color: #333; }
+    form { background: #fff; padding: 20px; border-radius: 10px; max-width: 500px; margin: auto; }
+    label { display: block; margin-top: 15px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; }
+    button { margin-top: 20px; padding: 10px 15px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <h1>Video Editor Report Form</h1>
+  <form>
+    <label>Editor Name</label>
+    <select>
+      <option>Thej Kiran</option>
+      <option>Sanad Shehin</option>
+      <option>Afeef</option>
+    </select>
+
+    <label>Week Number</label>
+    <input type="number" placeholder="e.g., 29">
+
+    <label>Month</label>
+    <input type="text" placeholder="e.g., July">
+
+    <label>Video Titles (one per line)</label>
+    <textarea rows="5" placeholder="Enter video names..."></textarea>
+
+    <label>Notes (optional)</label>
+    <textarea rows="3"></textarea>
+
+    <button type="submit">Submit Report</button>
+  </form>
+</body>
+</html>
